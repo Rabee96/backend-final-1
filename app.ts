@@ -20,7 +20,7 @@ class App {
     this.app.use(
       cors({
         origin: environment.client.origin,
-        credentials: true, // access-control-allow-credentials:true
+        credentials: true,
       })
     );
     this.app.use(express.json());
