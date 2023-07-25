@@ -180,9 +180,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{localhost_url}}/product?page=1&count=30",
+									"raw": "{{base_url}}/product?page=1&count=30",
 									"host": [
-										"{{localhost_url}}"
+										"{{base_url}}"
 									],
 									"path": [
 										"product"
